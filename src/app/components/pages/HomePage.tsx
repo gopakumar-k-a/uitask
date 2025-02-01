@@ -50,7 +50,7 @@ function HomePage() {
         </div>
       </div>
       <div ref={greyContainerRef} className="h-screen w-full bg-black">
-        <h1>{isSticky ? "isSticky-true" : "isSticky-false"}</h1>
+        {/* <h1>{isSticky ? "isSticky-true" : "isSticky-false"}</h1> */}
       </div>
     </>
   );

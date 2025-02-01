@@ -3,7 +3,7 @@ import React from "react";
 function HeadingTop() {
   return (
     <>
-      <div className="  bg-black grid grid-cols-2 grid-rows-2 sticky top-0">
+      <div className="  bg-black pb-9 grid grid-cols-2 grid-rows-2 sticky top-0">
         <div className="w-full col-span-2 row-span-1"></div>
         {/* <div className="w-full h-14"></div> */}
         <div>
