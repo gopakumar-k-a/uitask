@@ -1,0 +1,121 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: black;
+}
+
+
+@font-face {
+  font-family: "Tgglifko Bold";
+  src: url("/fonts/Fontspring-DEMO-tgglifko-bold.otf") format("opentype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Tgglifko Bold Italic";
+  src: url("/fonts/Fontspring-DEMO-tgglifko-bolditalic.otf") format("opentype");
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Tgglifko ExtraBold";
+  src: url("/fonts/Fontspring-DEMO-tgglifko-extrabold.otf") format("opentype");
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Tgglifko ExtraBold Italic";
+  src: url("/fonts/Fontspring-DEMO-tgglifko-extrabolditalic.otf") format("opentype");
+  font-weight: 800;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Tgglifko Italic";
+  src: url("/fonts/Fontspring-DEMO-tgglifko-italic.otf") format("opentype");
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Tgglifko Light";
+  src: url("/fonts/Fontspring-DEMO-tggIifko-Iight.otf") format("opentype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Tgglifko Light Italic";
+  src: url("/fonts/Fontspring-DEMO-tgglifko-lightitalic.otf") format("opentype");
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Tgglifko Medium";
+  src: url("/fonts/Fontspring-DEMO-tggIifko-medium.otf") format("opentype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Tgglifko Medium Italic";
+  src: url("/fonts/Fontspring-DEMO-tgglifko-mediumitalic.otf") format("opentype");
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Tgglifko Regular";
+  src: url("/fonts/Fontspring-DEMO-tggIifko-regular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Tgglifko SemiBold";
+  src: url("/fonts/Fontspring-DEMO-tgglifko-semibold.otf") format("opentype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Tgglifko SemiBold Italic";
+  src: url("/fonts/Fontspring-DEMO-tgglifko-semibolditalic.otf") format("opentype");
+  font-weight: 600;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Tgglifko UltraLight";
+  src: url("/fonts/Fontspring-DEMO-tgglifko-ultralight.otf") format("opentype");
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Tgglifko UltraLight Italic";
+  src: url("/fonts/Fontspring-DEMO-tgglifko-ultralightitalic.otf") format("opentype");
+  font-weight: 200;
+  font-style: italic;
+}
